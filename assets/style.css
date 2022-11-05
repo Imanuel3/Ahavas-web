@@ -1,0 +1,52 @@
+/* font stle */
+@font-face {
+    font-family: "armalite";
+    src: url(armalite.ttf) format("truetype"); 
+    font-weight:normal;
+}
+/* background img */
+body{
+    background-image: url(./img/backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+   font-family: "armalite" ;
+}
+/* ------------------------------------head content------------------------------ */
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    color: rgb(150, 44, 44);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+/* info alinment  */
+.pic-info{
+    display:table-row;
+    justify-content: center;
+    /* position: relative; */
+    padding-left:2rem;
+    /* margin-left: 37rem;
+    margin-top: 2rem; */
+}
+/* style for text info */
+ #info-Text{
+    /* margin-left: 9rem; */
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: rgb(168, 39, 39);
+    background-color: rgba(247, 251, 255, 0.582);
+    /* margin-right: 45rem; */
+}
+/* color for israeli */
+#chang{
+    color: aqua;
+}
+/* style for img of ahava  */
+.mom{
+    /* position:absolute; */
+    height: 5rem;
+    width: 8rem;
+    border: .05rem solid rgb(0, 0, 0);
+}
