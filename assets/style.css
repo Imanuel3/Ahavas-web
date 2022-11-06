@@ -23,30 +23,54 @@ body{
 }
 /* info alinment  */
 .pic-info{
-    display:table-row;
-    justify-content: center;
-    /* position: relative; */
+    margin-top: 1rem;;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
     padding-left:2rem;
-    /* margin-left: 37rem;
-    margin-top: 2rem; */
 }
 /* style for text info */
  #info-Text{
-    /* margin-left: 9rem; */
     color: rgb(0, 0, 0);
     text-decoration: underline;
     text-decoration-color: rgb(168, 39, 39);
-    background-color: rgba(247, 251, 255, 0.582);
-    /* margin-right: 45rem; */
+    background-color: rgba(175, 182, 139, 0.582);
 }
-/* color for israeli */
-#chang{
-    color: aqua;
+/* colors for specific characters */
+#colorForIsreali{
+    color: rgb(67, 148, 148);
+}
+#colorForR{
+    color: rgb(99, 20, 20);
+}
+#colorForI{
+    color: rgb(54, 116, 116);
+}
+#colorForE{
+    color: rgb(99, 117, 133);
 }
 /* style for img of ahava  */
 .mom{
-    /* position:absolute; */
     height: 5rem;
     width: 8rem;
     border: .05rem solid rgb(0, 0, 0);
+   border-radius: 20px;
+   transition: .7s;
+}
+/* hover for img of mom */
+.mom:hover{
+     height: 6rem;
+     width: 10rem;
+     box-shadow: 2px 2px 4px rgba(0, 195, 255, 0.582);
+}
+.mike{
+    display: flex;
+}
+.iner-mike{
+    display:flex;
+    margin-top: -1rem;;
+}
+.mike-img{
+    height: 8rem;
+    width: 8rem;
 }
