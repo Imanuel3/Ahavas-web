@@ -63,14 +63,31 @@ body{
      width: 10rem;
      box-shadow: 2px 2px 4px rgba(0, 195, 255, 0.582);
 }
-.mike{
+/* alin for all the childern */
+.allTheChildren{
     display: flex;
 }
-.iner-mike{
-    display:flex;
-    margin-top: -1rem;;
+/* style for children */
+.mike,.john{
+    display: flex;
+    margin-right: 1rem;
 }
-.mike-img{
+/* posishon and style for childern */
+.iner-mike {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+/* main posishon for children  */
+.mike-img, .john-img{
     height: 8rem;
     width: 8rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: .05rem solid black;
+    transition: .5s;
+}
+/* hover for mike  */
+.mike-img:hover{
+    height: 10rem;
+     width: 10rem;
 }
