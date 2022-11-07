@@ -63,31 +63,60 @@ body{
      width: 10rem;
      box-shadow: 2px 2px 4px rgba(0, 195, 255, 0.582);
 }
+/* ----------------------------------all for main content ------------------------------------------- */
 /* alin for all the childern */
 .allTheChildren{
     display: flex;
 }
 /* style for children */
-.mike,.john{
+.mike,.john,.imanuel, .sarah{
     display: flex;
     margin-right: 1rem;
 }
 /* posishon and style for childern */
-.iner-mike {
-    background-color: aliceblue;
+.iner-mike, .iner-john, .iner-im {
+    background-color: rgba(240, 248, 255, 0.63);
     border-radius: 5px;
 }
 /* main posishon for children  */
-.mike-img, .john-img{
-    height: 8rem;
-    width: 8rem;
+.mike-img, .john-img,.imanuel-img, .sarah-img{
+    margin-top: 2rem;
+    height: 7.5rem;
+    width:7.5rem;
     margin-right: 1rem;
     border-radius: 10px;
     border: .05rem solid black;
     transition: .5s;
 }
-/* hover for mike  */
-.mike-img:hover{
+.sarah-img{
+    height: 8.5rem;
+    width:7.5rem;
+    margin-top: 1rem;
+}
+.sarah{
+    margin-right: 2rem;
+}
+/* hover for  most of the childern  */
+.mike-img:hover, .john-img:hover,.imanuel-img:hover{
     height: 10rem;
      width: 10rem;
+}
+/* hover bacground color  for mike*/
+.mike-img:hover{
+    box-shadow: 2px 2px 6px rgb(119, 7, 7);
+}
+/* hover bacground color  for john*/
+.john-img:hover{
+    box-shadow: 2px 2px 6px rgba(37, 167, 48, 0.548);
+}
+/* hover bacground color  for imanuel */
+.imanuel-img:hover{
+    box-shadow: 2px 2px 6px blue;
+}
+/* hover bacground color and sizing for sarah  */
+.sarah-img:hover{
+    box-shadow: 2px 2px 6px rgb(0, 217, 255);
+    height: 12rem;
+    width: 11rem;
+  
 }
