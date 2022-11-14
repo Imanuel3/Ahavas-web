@@ -65,21 +65,28 @@ body{
 }
 /* ----------------------------------all for main content ------------------------------------------- */
 /* alin for all the childern */
-.allTheChildren{
+.ChildrenRowOne{
+    margin-left: 5rem;
+    display: flex;
+}
+.ChildrenRowTwo{
+    margin-left: 5rem;
     display: flex;
 }
 /* style for children */
-.mike,.john,.imanuel, .sarah{
+.mike,.john,.imanuel, .sarah, .Ruth{
     display: flex;
     margin-right: 1rem;
 }
 /* posishon and style for childern */
-.iner-mike, .iner-john, .iner-im {
+.iner{
     background-color: rgba(240, 248, 255, 0.63);
     border-radius: 5px;
+    width: 17rem;
 }
+
 /* main posishon for children  */
-.mike-img, .john-img,.imanuel-img, .sarah-img{
+.mike-img, .john-img,.imanuel-img, .sarah-img, .ruth-img{
     margin-top: 2rem;
     height: 7.5rem;
     width:7.5rem;
@@ -119,4 +126,10 @@ body{
     height: 12rem;
     width: 11rem;
   
+}
+/* hover for ruth */
+.ruth-img:hover{
+    box-shadow: 2px 6px 6px rgb(255, 255, 255);
+    height: 11rem;
+    width: 11rem;
 }
