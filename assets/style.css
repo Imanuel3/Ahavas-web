@@ -4,6 +4,10 @@
     src: url(armalite.ttf) format("truetype"); 
     font-weight:normal;
 }
+@font-face {
+    font-family: "milFont";
+    src: url(./gunplay\ rg.ttf) format("truetype");
+}
 /* background img */
 body{
     background-image: url(./img/backround.jpg);
@@ -66,17 +70,25 @@ body{
 /* ----------------------------------all for main content ------------------------------------------- */
 /* alin for all the childern */
 .ChildrenRowOne{
+    font-family: "milFont";
     margin-left: 5rem;
     display: flex;
 }
 .ChildrenRowTwo{
+    font-family: "milFont";
     margin-left: 5rem;
     display: flex;
 }
+.lastChilde{
+    font-family: "milFont";
+    display: flex;
+    justify-content: center;
+}
 /* style for children */
-.mike,.john,.imanuel, .sarah, .Ruth{
+.mike,.john,.imanuel, .sarah, .Ruth,.Sam,.Ami,.noakh,.yesh{
     display: flex;
     margin-right: 1rem;
+    margin-left: 1rem;
 }
 /* posishon and style for childern */
 .iner{
@@ -86,7 +98,7 @@ body{
 }
 
 /* main posishon for children  */
-.mike-img, .john-img,.imanuel-img, .sarah-img, .ruth-img{
+.mike-img, .john-img,.imanuel-img, .sarah-img, .ruth-img, .sam-img,.ami-img,.noakh-img,.yesh-img{
     margin-top: 2rem;
     height: 7.5rem;
     width:7.5rem;
@@ -95,10 +107,30 @@ body{
     border: .05rem solid black;
     transition: .5s;
 }
+.imanuel-img{
+    height: 8rem;
+    width: 8.5rem;
+}
 .sarah-img{
     height: 8.5rem;
     width:7.5rem;
     margin-top: 1rem;
+}
+.sam-img{
+    height: 9rem;
+    width: 8rem;
+}
+.ami-img{
+    height: 9rem;
+    width: 9rem;
+}
+.noakh-img{
+    width: 9rem;
+    height: 9rem;
+}
+.yesh-img{
+    width: 8rem;
+    height: 8rem;
 }
 .sarah{
     margin-right: 2rem;
@@ -110,7 +142,7 @@ body{
 }
 /* hover bacground color  for mike*/
 .mike-img:hover{
-    box-shadow: 2px 2px 6px rgb(119, 7, 7);
+    box-shadow: 2px 2px 6px rgb(255, 145, 0);
 }
 /* hover bacground color  for john*/
 .john-img:hover{
@@ -132,4 +164,42 @@ body{
     box-shadow: 2px 6px 6px rgb(255, 255, 255);
     height: 11rem;
     width: 11rem;
+}
+
+/* hover for sam */
+.sam-img:hover{
+    box-shadow: 2px 2px 6px orange;
+    height: 11rem;
+    width: 10rem;
+}
+
+/* hover for Ami */
+.ami-img:hover{
+    box-shadow: 2px 2px 6px rgb(255, 115, 0);
+    height: 11rem;
+    width: 11rem;;
+}
+
+/* hover for noakh */
+.noakh-img:hover{
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    width: 11rem;
+    height: 11rem;
+}
+/* hover for yesh */
+.yesh-img:hover{
+    box-shadow: 6px 2px 6px gray;
+    width: 11rem;
+    height: 11rem;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#vid-style{
+    box-shadow: 6px 2px 6px rgb(255, 0, 0);
 }
