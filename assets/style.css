@@ -62,6 +62,10 @@ body{
    transition: .7s;
 }
 /* hover for img of mom */
+.top-text{
+    display: flex;
+    justify-content: center;
+}
 .mom:hover{
      height: 6rem;
      width: 10rem;
@@ -192,14 +196,37 @@ body{
     width: 11rem;
     height: 11rem;
 }
-
+/* ----------------------------------------------------------video here ------------------------------------------------------- */
+.birthday{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin: 0rem 35rem;
+    background-color: rgba(255, 0, 0, 0.534);
+    border: .1rem solid black;
+}
+/* style for video */
 .video{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    /* background-color: antiquewhite; */
 }
-
+/* baground color */
 #vid-style{
-    box-shadow: 6px 2px 6px rgb(255, 0, 0);
+   box-shadow: 6px 2px 6px rgba(255, 0, 0, 0.315);
+}
+/* style for text of other vids */
+.text-otherVid{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border: .2rem solid black;
+}
+/* for the last videos */
+.other-videos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
 }
