@@ -73,17 +73,17 @@ body{
 }
 /* ----------------------------------all for main content ------------------------------------------- */
 /* alin for all the childern */
-.ChildrenRowOne{
+.ChildrenRowOne, .ChildrenRowTwo{
     font-family: "milFont";
     margin-left: 3rem;
     display: flex;
 }
-.ChildrenRowTwo{
+/* .ChildrenRowTwo{
     margin-top: 3rem;
     font-family: "milFont";
     margin-left: 3rem;
     display: flex;
-}
+} */
 .lastChilde{
     font-family: "milFont";
     display: flex;
@@ -283,3 +283,65 @@ iframe{
         scrollbar-color: rgba(255, 17, 0, 0.678)  rgb(0, 0, 0);
     }
 }
+
+/* ------------------------------------chang screen size for 1280px------------------------------------------------- */
+
+@media only screen and (max-width: 1280px) {
+  .ChildrenRowOne{
+    flex-wrap: wrap;
+  }
+
+.Ami,.Ruth{
+   flex-wrap: wrap;
+ }
+    .Ami{
+        margin-top: -11.5rem;
+    }
+}
+
+.birthday{
+    margin: auto;
+}
+
+.more-info{
+    margin: 5rem 3rem;
+    padding: 1rem 2rem;
+}
+/* ----------------------------------------------chang screen for 1000px----------------------------------- */
+@media screen and (max-width: 1000px){
+    .ChildrenRowOne{
+        display: flex;
+        justify-content: center;
+    }
+    
+    }   
+/* ------------------------------------------chang sreen for 980px---------------------------------------------- */
+@media only screen and (max-width: 980px){
+   .ChildrenRowOne,.ChildrenRowTwo{
+    display: flex;
+    margin: auto;
+   }
+     .other-videos{
+    flex-wrap: wrap;
+  }
+  
+}
+/* -----------------------------------------chang screen for 820px------------------------------------------------------ */
+@media screen and (max-width: 820px) {
+   .ChildrenRowOne{
+    margin: auto;
+   justify-content: center;
+   }
+
+   .ChildrenRowTwo{
+    margin-left: -1rem;
+   }
+  .other-videos{
+    flex-wrap: wrap;
+  }
+  .more-info{
+    padding: 1rem 3rem;
+  }
+  
+}
+
