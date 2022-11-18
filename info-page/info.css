@@ -22,7 +22,21 @@ header{
     align-items: center;
  
 }
-
+/* styel for go back button */
+#backButton{
+    font-family: "milFont";
+    color: black;
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.308);
+    border-radius: 5px;
+    border: .1rem solid black;
+    transition: .7s;
+}
+/* styel for hover  */
+#backButton:hover{
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
 /* style for name  */
 .hello{
     background-color: rgba(28, 81, 128, 0.705);
@@ -128,10 +142,10 @@ u{
     border-radius: 2px;
     padding: .5rem;
 }
-#mosk, #Y-link, #J-link, #I-link{
+#mosk, #Y-link, #J-link, #I-link,#SH-link,#R-link,#S-link,#A-link, #N-link,#YH-link{
     text-decoration: none;
-    color: rgba(231, 82, 82, 0.5);
-    background-color: rgba(0, 0, 0, 0.384);
+    color: rgba(82, 209, 231, 0.5);
+    background-color: rgba(0, 0, 0, 0.678);
     border-radius: 5px;
     margin: 0rem .3rem;
 }
@@ -152,11 +166,4 @@ u{
     color: rgba(233, 127, 127, 0.973);
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
-}
-
-#Y-link{
-    color: rgba(8, 219, 247, 0.61);
-}
-#J-link{
-    color: green;
 }
