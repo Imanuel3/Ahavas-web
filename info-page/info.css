@@ -14,26 +14,102 @@ body{
 /* style for heder  */
 header{
     display: flex;
+    justify-content: center;
+}
+.iner-head{
+    display: flex;
     flex-direction: column;
     align-items: center;
  
 }
 /* style for name  */
 .hello{
-    background-color: rgb(28, 81, 128);
+    background-color: rgba(28, 81, 128, 0.705);
     color: rgba(0, 0, 0, 0.658);
     border-radius: 10px;
     font-family: "milFont";
-    border: .1rem solid blue;
+    border: .1rem solid rgba(255, 255, 255, 0.5);
+    font-weight: 500;
 }
 /* style for icon */
 .is-icon{
     padding-top: .5rem;
     width: 3rem;
+    transition: .7s;
+}
+/* hover for is icon */
+.is-icon:hover{
+    box-shadow: 2px 2px 6px rgb(255, 255, 255);
+    background-color: rgb(39, 45, 51);
+    border-radius: 10px;
+    width: 5rem;
+
 }
 /* style for img of ahava  */
 .ahava{
+    box-shadow: 2px 2px 6px rgb(255, 255, 255);
     width: 13rem;
     border-radius: 10px;
     opacity: .8;
+}
+
+/* styel for grandfather */
+.full-grampa{
+    margin-top: 10rem;
+    margin-right: -30rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.grandfather-text{
+    margin-top: .5rem;
+    padding: .5rem .5rem;
+    background-color: rgba(39, 168, 168, 0.377);
+    border-radius: 10px;
+    font-family: "milFont";
+    border: .1rem solid white;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+/* grampa img style  */
+.grampa-img{
+    width: auto;
+    height: 8rem;
+    border-radius: 10px;
+    box-shadow:2px 2px 6px rgb(75, 51, 21);
+}
+/* grampa story style */
+.grampaStory{
+    color: rgb(0, 0, 0);
+    padding: .5rem;
+    margin: 0rem 1rem;
+    border-radius: 10px 10px 1px 1px;
+    background-color: rgba(39, 168, 168, 0.377);
+    font-family: "milFont";
+    font-weight: 100;
+}
+/* the text in ( ) for grampa storry */
+#will-be{
+    background-color: rgba(240, 248, 255, 0.356);
+    border-radius: 9px;
+}
+/* unerlin for grampa story */
+u{
+    background-color: rgba(27, 125, 211, 0.548);
+    border-radius: 5px;
+    border: .1rem solid rgba(255, 255, 255, 0.541);
+}
+/* ------------------------------------------------info part starts ------------------------------------------------------------- */
+.fromBerth{
+    margin-top: 5rem;
+}
+.textOfBerth{
+    background-color: rgba(245, 240, 240, 0.575);
+    font-family: "milFont";
+    font-weight: 100;
+    border: .1rem solid black;
+}
+#mosk{
+    text-decoration: none;
+    color: rgba(231, 82, 82, 0.801);
 }
