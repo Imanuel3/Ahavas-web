@@ -22,6 +22,7 @@ header{
     align-items: center;
  
 }
+
 /* style for name  */
 .hello{
     background-color: rgba(28, 81, 128, 0.705);
@@ -52,16 +53,22 @@ header{
     border-radius: 10px;
     opacity: .8;
 }
-
+/* style for grandmother */
+.grandmother,.grampaStory{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: auto;
+}
 /* styel for grandfather */
 .full-grampa{
     margin-top: 10rem;
-    margin-right: -30rem;
+    margin-right: -8rem;
     display: flex;
     flex-direction: column;
     align-items:center;
 }
-.grandfather-text{
+.grandfather-text, .grandmother-text{
     margin-top: .5rem;
     padding: .5rem .5rem;
     background-color: rgba(39, 168, 168, 0.377);
@@ -72,14 +79,18 @@ header{
     font-size: 1.5rem;
 }
 /* grampa img style  */
-.grampa-img{
+.grampa-img, .grandmother-img{
     width: auto;
     height: 8rem;
     border-radius: 10px;
     box-shadow:2px 2px 6px rgb(75, 51, 21);
 }
+/* styel for grandmother sorry  */
+.grandmotherStory{
+    text-align: center;
+}
 /* grampa story style */
-.grampaStory{
+.grampaStory,.grandmotherStory{
     color: rgb(0, 0, 0);
     padding: .5rem;
     margin: 0rem 1rem;
@@ -95,21 +106,57 @@ header{
 }
 /* unerlin for grampa story */
 u{
-    background-color: rgba(27, 125, 211, 0.548);
+    background-color: rgba(235, 241, 247, 0.548);
     border-radius: 5px;
-    border: .1rem solid rgba(255, 255, 255, 0.541);
+    /* border: .1rem solid rgba(255, 255, 255, 0.541); */
 }
 /* ------------------------------------------------info part starts ------------------------------------------------------------- */
 .fromBerth{
     margin-top: 5rem;
+    margin-right: 40rem;
 }
-.textOfBerth{
+.thebeginning,.birthOFCh{
+    margin-right: 20rem;
+    margin-left: 20rem;
+    text-align: center;
+}
+.textOfBerth, .thebeginning,.birthOFCh,.textOfCh{
     background-color: rgba(245, 240, 240, 0.575);
     font-family: "milFont";
     font-weight: 100;
     border: .1rem solid black;
+    border-radius: 2px;
+    padding: .5rem;
 }
-#mosk{
+#mosk, #Y-link, #J-link, #I-link{
     text-decoration: none;
-    color: rgba(231, 82, 82, 0.801);
+    color: rgba(231, 82, 82, 0.5);
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+    margin: 0rem .3rem;
+}
+#is-link{
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0.486);
+   border-radius: 5px;
+}
+#NY-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.884);
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 5px;
+}
+#TS-link{
+    text-decoration: none;
+    color: rgba(233, 127, 127, 0.973);
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+}
+
+#Y-link{
+    color: rgba(8, 219, 247, 0.61);
+}
+#J-link{
+    color: green;
 }
