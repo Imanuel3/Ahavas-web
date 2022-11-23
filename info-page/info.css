@@ -15,6 +15,7 @@ body{
 header{
     display: flex;
     justify-content: center;
+    
 }
 .iner-head{
     display: flex;
@@ -88,7 +89,7 @@ header{
     background-color: rgba(39, 168, 168, 0.377);
     border-radius: 10px;
     font-family: "milFont";
-    border: .1rem solid white;
+    border: .1rem solid rgb(0, 0, 0);
     font-weight: 100;
     font-size: 1.5rem;
 }
@@ -141,6 +142,7 @@ u{
     border: .1rem solid black;
     border-radius: 2px;
     padding: .5rem;
+    border-radius: 10px;
 }
 #mosk, #Y-link, #J-link, #I-link,#SH-link,#R-link,#S-link,#A-link, #N-link,#YH-link{
     text-decoration: none;
@@ -152,18 +154,18 @@ u{
 #is-link{
     text-decoration: none;
     color: rgba(0, 255, 255, 0.377);
-   background-color: rgba(255, 255, 255, 0.486);
+   background-color: rgba(0, 0, 0, 0.486);
    border-radius: 5px;
 }
 #NY-link{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.884);
-    background-color: rgba(255, 255, 255, 0.486);
+    color: rgba(255, 255, 255, 0.568);
+    background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
 }
 #TS-link{
     text-decoration: none;
-    color: rgba(233, 127, 127, 0.973);
+    color: rgba(255, 255, 255, 0.568);
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
 }
